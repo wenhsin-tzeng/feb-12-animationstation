@@ -1,5 +1,7 @@
 body, html{
-  background-color: darkblue;
+  background: rgb(1,16,55);
+  background: linear-gradient(90deg, rgba(1,16,55,1) 0%, rgba(17,50,111,1) 26%, rgba(31,78,157,1) 43%, rgba(59,115,208,1) 64%, rgba(84,149,254,1) 76%, rgba(177,207,255,1) 100%, rgba(230,239,255,1) 100%);
+  /* background-color: darkblue; */
   font-family: 'Work Sans', sans-serif;
 }
 
@@ -14,9 +16,160 @@ li {
   list-style-type: none;
 }
 
+img {
+  width: 25rem;
+  padding-top: 7.5rem;
+  padding-left: 9rem;
+}
+
+.box-1-1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 36rem;
+  margin-top: -20rem;
+  line-height: 1rem;
+  position: relative;
+}
+
+.makin {
+  animation-name: changetored;
+  animation-iteration-count: 1;
+  animation-duration: 5s;
+  animation-delay: 16s;
+}
+
+@keyframes changetored{
+  0% {
+    color: black;
+  }
+  50% {
+    color: white;
+  }
+  85% {
+    color: red;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.money {
+  animation-name: changetored;
+  animation-iteration-count: 1;
+  animation-duration: 5s;
+  animation-delay: 19s;
+}
+
+.been {
+  animation-name: changetored;
+  animation-iteration-count: 1;
+  animation-duration: 5s;
+  animation-delay: 23s;
+}
+
+.rectangle {
+  background-color: darkred;
+  width: 4rem;
+  height: 0.5rem;
+  margin-left: 36rem;
+  animation-name: rectangle;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+  animation-delay: 28s;
+  position: relative;
+}
+
+@keyframes rectangle{
+  0% {
+    background-color: darkred;
+    top: 0rem;
+    left: 0rem;
+  }
+  40% {
+    background-color: white;
+    top: 0rem;
+    left: 27.2rem;
+    width: 11rem;
+    border-radius: 1rem;
+  }
+  50% {
+    background-color: red;
+    top: -1rem;
+    left: 27.2rem;
+    width: 11rem;
+    border-radius: 1rem;
+  }
+  70% {
+    background-color: white;
+    top: 0rem;
+    left: 27.2rem;
+    width: 11rem;
+    border-radius: 1rem;
+  }
+  100% {
+    background-color: darkred;
+    top: 0rem;
+    left: 0rem;
+  }
+}
+
+.box-2-1 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.afloat {
+  color: white;
+  text-shadow: 0.2rem 0.5rem black;
+  /* font-size: 11.4rem; */
+}
+
+.afloat span{
+  font-size: 8rem;
+  line-height: 14rem;
+  letter-spacing: 2rem;
+  position: relative;
+  display: inline-block;
+  animation-name: afloat;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 3;
+  animation-delay: 2s;
+}
+
+.afloat span:nth-child(2){
+  animation-delay: 0.3s;
+}
+.afloat span:nth-child(3){
+  animation-delay: 0.5s;
+}
+.afloat span:nth-child(4){
+  animation-delay: 0.7s;
+}
+.afloat span:nth-child(5){
+  animation-delay: 0.9s;
+}
+.afloat span:nth-child(6){
+  animation-delay: 1.1s;
+}
+
+@keyframes afloat{
+  0%{
+    transform: rotateY(360deg);
+  }
+  50%{
+    color: blue;
+    transform: rotateY(360deg);
+  }
+}
+
+
 .box-3-1 {
   /* color: #396084; */
-  color: blue;
+  color: black;
   font-weight: 700;
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
@@ -72,7 +225,7 @@ span {
 
 .box-3-2 {
   text-align: center;
-  color: blue;
+  color: black;
   font-weight: 700;
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
@@ -104,7 +257,7 @@ span {
 .box-3-3 {
   font-size: 8rem;
   text-align: right;
-  color: darkblue;
+  color: #b1cfff;
   /* color: #C6E2FF; */
   font-weight: 700;
   letter-spacing: -0.1rem;
@@ -112,21 +265,78 @@ span {
   margin-top: -26rem;
   animation-name: changecolor;
   animation-duration: 5s;
-  animation-delay: 10s;
+  animation-delay: 10.5s;
   animation-iteration-count: infinite;
 }
 
 @keyframes changecolor{
   0% {
-    color: darkblue;
+    color: #b1cfff;
   }
-  50% {
+  20% {
     color: blue;
   }
-  90% {
+  50% {
     color: lightblue;
   }
-  100% {
-    color: darkblue;
+  90% {
+    color: blue;
   }
+  100% {
+    color: #b1cfff;
+  }
+}
+
+.artist{
+  font-size: 1rem;
+  font-weight: 800;
+  color: lightyellow;
+  margin-left: 38rem;
+  padding-top: 5rem;
+}
+
+.artist1{
+  font-size: 1rem;
+  font-weight: 800;
+  color: lightyellow;
+  margin-left: 38rem;
+  margin-top: 13.1rem;
+}
+
+.artist2{
+  font-size: 1rem;
+  font-weight: 800;
+  color: lightyellow;
+  margin-left: 38rem;
+  margin-top: 12.35rem;
+}
+
+.circle{
+  background-color: lightyellow;
+  border-radius: 0.5rem;
+  height: 1rem;
+  width: 1rem;
+  margin-top: -3rem;
+  margin-left: 41.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: lightyellow;
+}
+
+.circle:link{
+  text-decoration: none;
+}
+
+.circle:visited{
+  text-decoration: none;
+}
+
+.circle:hover{
+  background-color: darkred;
+  text-decoration: none;
+}
+
+.circle:active{
+  background-color: blue;
+  text-decoration: none;
 }
