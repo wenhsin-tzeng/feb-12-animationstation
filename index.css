@@ -35,7 +35,7 @@ img {
   animation-name: changetored;
   animation-iteration-count: 1;
   animation-duration: 5s;
-  animation-delay: 16s;
+  animation-delay: 14s;
 }
 
 @keyframes changetored{
@@ -57,14 +57,14 @@ img {
   animation-name: changetored;
   animation-iteration-count: 1;
   animation-duration: 5s;
-  animation-delay: 19s;
+  animation-delay: 18s;
 }
 
 .been {
   animation-name: changetored;
   animation-iteration-count: 1;
   animation-duration: 5s;
-  animation-delay: 23s;
+  animation-delay: 22s;
 }
 
 .rectangle {
